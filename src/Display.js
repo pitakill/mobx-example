@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
-import Todos from "./Todos";
-import useStore from "./useStore";
+import Todos from "Todos";
+import useStore from "useStore";
 
 function Display() {
   const store = useStore();

@@ -1,4 +1,4 @@
-import useStore from "./useStore";
+import useStore from "useStore";
 
 function Todo({ title, done, toggleDone }) {
   return (

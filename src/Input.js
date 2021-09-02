@@ -1,4 +1,4 @@
-import useForm from "./useForm";
+import useForm from "useForm";
 
 function Input() {
   const [value, setValue, submit] = useForm();

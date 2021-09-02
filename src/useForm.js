@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useStore from "./useStore";
+import useStore from "useStore";
 
 const useForm = () => {
   const [value, setValue] = useState("");
